@@ -8,8 +8,8 @@ from urllib.parse import urlparse
 from lxml.etree import XPathEvalError
 from slugify import slugify
 
-from scrapddl.items.items import GroupItem, Item
-from scrapddl.settings import TIMEOUT_REQUEST_PROVIDERS, CLEAN_PATTERN_TITLE
+from items.items import GroupItem, Item
+from settings import TIMEOUT_REQUEST_PROVIDERS, CLEAN_PATTERN_TITLE
 
 
 class BaseSpider(object):
